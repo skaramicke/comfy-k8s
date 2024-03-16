@@ -10,4 +10,4 @@ RUN git clone https://github.com/comfyanonymous/ComfyUI.git /app
 RUN pip install -r requirements.txt
 RUN git clone https://github.com/ltdrdata/ComfyUI-Manager.git /app/custom_nodes/ComfyUI-Manager
 
-CMD python main.py --listen=0.0.0.0 --port 8080
+CMD python main.py --listen --port=8080
